@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{4DEC9D7D-5A13-495E-B8A0-F70CCDEED3FE}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BasicCertificateWebAPI/Controllers/CalcController.cs">
+    <Files>
+      <File FileName="BasicCertificateWebAPI/Controllers/CalcController.cs" Line="18" Column="10" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.BasicCertificateWebAPI PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+</Properties>

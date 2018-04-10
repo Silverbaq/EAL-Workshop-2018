@@ -1,0 +1,10 @@
+/Users/silverbaq/GitRepositories/EAL-Workshop/ServiceAuth/Services/C#/BasicWebAPI/BasicWebAPI/bin/Debug/netcoreapp2.0/BasicWebAPI.deps.json
+/Users/silverbaq/GitRepositories/EAL-Workshop/ServiceAuth/Services/C#/BasicWebAPI/BasicWebAPI/bin/Debug/netcoreapp2.0/BasicWebAPI.runtimeconfig.json
+/Users/silverbaq/GitRepositories/EAL-Workshop/ServiceAuth/Services/C#/BasicWebAPI/BasicWebAPI/bin/Debug/netcoreapp2.0/BasicWebAPI.runtimeconfig.dev.json
+/Users/silverbaq/GitRepositories/EAL-Workshop/ServiceAuth/Services/C#/BasicWebAPI/BasicWebAPI/bin/Debug/netcoreapp2.0/BasicWebAPI.dll
+/Users/silverbaq/GitRepositories/EAL-Workshop/ServiceAuth/Services/C#/BasicWebAPI/BasicWebAPI/bin/Debug/netcoreapp2.0/BasicWebAPI.pdb
+/Users/silverbaq/GitRepositories/EAL-Workshop/ServiceAuth/Services/C#/BasicWebAPI/BasicWebAPI/obj/Debug/netcoreapp2.0/BasicWebAPI.csproj.CoreCompileInputs.cache
+/Users/silverbaq/GitRepositories/EAL-Workshop/ServiceAuth/Services/C#/BasicWebAPI/BasicWebAPI/obj/Debug/netcoreapp2.0/BasicWebAPI.AssemblyInfoInputs.cache
+/Users/silverbaq/GitRepositories/EAL-Workshop/ServiceAuth/Services/C#/BasicWebAPI/BasicWebAPI/obj/Debug/netcoreapp2.0/BasicWebAPI.AssemblyInfo.cs
+/Users/silverbaq/GitRepositories/EAL-Workshop/ServiceAuth/Services/C#/BasicWebAPI/BasicWebAPI/obj/Debug/netcoreapp2.0/BasicWebAPI.dll
+/Users/silverbaq/GitRepositories/EAL-Workshop/ServiceAuth/Services/C#/BasicWebAPI/BasicWebAPI/obj/Debug/netcoreapp2.0/BasicWebAPI.pdb

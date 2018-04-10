@@ -1,0 +1,11 @@
+/Users/silverbaq/GitRepositories/EAL-Workshop/ServiceAuth/Services/C#/BasicTokenWebAPI/BasicTokenWebAPI/bin/Debug/netcoreapp2.0/BasicTokenWebAPI.deps.json
+/Users/silverbaq/GitRepositories/EAL-Workshop/ServiceAuth/Services/C#/BasicTokenWebAPI/BasicTokenWebAPI/bin/Debug/netcoreapp2.0/BasicTokenWebAPI.runtimeconfig.json
+/Users/silverbaq/GitRepositories/EAL-Workshop/ServiceAuth/Services/C#/BasicTokenWebAPI/BasicTokenWebAPI/bin/Debug/netcoreapp2.0/BasicTokenWebAPI.runtimeconfig.dev.json
+/Users/silverbaq/GitRepositories/EAL-Workshop/ServiceAuth/Services/C#/BasicTokenWebAPI/BasicTokenWebAPI/bin/Debug/netcoreapp2.0/BasicTokenWebAPI.dll
+/Users/silverbaq/GitRepositories/EAL-Workshop/ServiceAuth/Services/C#/BasicTokenWebAPI/BasicTokenWebAPI/bin/Debug/netcoreapp2.0/BasicTokenWebAPI.pdb
+/Users/silverbaq/GitRepositories/EAL-Workshop/ServiceAuth/Services/C#/BasicTokenWebAPI/BasicTokenWebAPI/obj/Debug/netcoreapp2.0/BasicTokenWebAPI.csprojResolveAssemblyReference.cache
+/Users/silverbaq/GitRepositories/EAL-Workshop/ServiceAuth/Services/C#/BasicTokenWebAPI/BasicTokenWebAPI/obj/Debug/netcoreapp2.0/BasicTokenWebAPI.csproj.CoreCompileInputs.cache
+/Users/silverbaq/GitRepositories/EAL-Workshop/ServiceAuth/Services/C#/BasicTokenWebAPI/BasicTokenWebAPI/obj/Debug/netcoreapp2.0/BasicTokenWebAPI.AssemblyInfoInputs.cache
+/Users/silverbaq/GitRepositories/EAL-Workshop/ServiceAuth/Services/C#/BasicTokenWebAPI/BasicTokenWebAPI/obj/Debug/netcoreapp2.0/BasicTokenWebAPI.AssemblyInfo.cs
+/Users/silverbaq/GitRepositories/EAL-Workshop/ServiceAuth/Services/C#/BasicTokenWebAPI/BasicTokenWebAPI/obj/Debug/netcoreapp2.0/BasicTokenWebAPI.dll
+/Users/silverbaq/GitRepositories/EAL-Workshop/ServiceAuth/Services/C#/BasicTokenWebAPI/BasicTokenWebAPI/obj/Debug/netcoreapp2.0/BasicTokenWebAPI.pdb
