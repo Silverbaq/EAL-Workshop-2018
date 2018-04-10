@@ -26,7 +26,7 @@ The username is: userName
 The password is: password
 
 
-### BasicCertificateWebAPI
+### BasicTokenWebAPI
 A C# .NET Core Web API. This is solution uses "Bearer Token Authentication". Request a token by POST request to:
 * http://<path>/api/token/gettoken
 
