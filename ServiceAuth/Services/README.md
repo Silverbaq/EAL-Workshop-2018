@@ -4,7 +4,7 @@ You will be able to find several services in different languages and frameworks.
 ## C#
 Under C# you will find:
 
-### BasicWebAPI
+### BasicWebAPI (http://basicwebapi.azurewebsites.net)
 A C# .NET Core Web API. This is a very simple solution, it can calc two numbers together by doing a GET request: 
 * http://<path>/api/calc/add?a=2&b=4
 * http://<path>/api/calc/sub?a=2&b=4
@@ -13,7 +13,7 @@ A C# .NET Core Web API. This is a very simple solution, it can calc two numbers 
 
 
 
-### BasicAuthWebAPI
+### BasicAuthWebAPI (http://basicauthwebapi.azurewebsites.net)
 A C# .NET Core Web API. This is solution uses "Basic Auth", it can add two numbers together by doing a GET request: 
 * http://<path>/api/calc/add?a=2&b=4
 * http://<path>/api/calc/sub?a=2&b=4
@@ -26,7 +26,7 @@ The username is: userName
 The password is: password
 
 
-### BasicTokenWebAPI
+### BasicTokenWebAPI (http://basictokenwebapi.azurewebsites.net)
 A C# .NET Core Web API. This is solution uses "Bearer Token Authentication". Request a token by POST request to:
 * http://<path>/api/token/gettoken
 

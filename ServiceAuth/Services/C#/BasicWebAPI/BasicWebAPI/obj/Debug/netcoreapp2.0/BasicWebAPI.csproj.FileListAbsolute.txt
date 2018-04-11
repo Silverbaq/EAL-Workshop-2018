@@ -8,3 +8,4 @@
 /Users/silverbaq/GitRepositories/EAL-Workshop/ServiceAuth/Services/C#/BasicWebAPI/BasicWebAPI/obj/Debug/netcoreapp2.0/BasicWebAPI.AssemblyInfo.cs
 /Users/silverbaq/GitRepositories/EAL-Workshop/ServiceAuth/Services/C#/BasicWebAPI/BasicWebAPI/obj/Debug/netcoreapp2.0/BasicWebAPI.dll
 /Users/silverbaq/GitRepositories/EAL-Workshop/ServiceAuth/Services/C#/BasicWebAPI/BasicWebAPI/obj/Debug/netcoreapp2.0/BasicWebAPI.pdb
+/Users/silverbaq/GitRepositories/EAL-Workshop/ServiceAuth/Services/C#/BasicWebAPI/BasicWebAPI/obj/Debug/netcoreapp2.0/BasicWebAPI.csprojResolveAssemblyReference.cache
