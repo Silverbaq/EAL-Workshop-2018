@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NoAuthActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="No authentication"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.326"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="35dp"
+        android:padding="5dp"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/noAuth_etANumber"
+            android:hint="A Number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/noAuth_etBNumber"
+            android:hint="B Number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="4"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/noAuth_btnAdd"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Add"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/noAuth_btnSub"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Sub"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/noAuth_btnMulti"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Multiply"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/noAuth_btnDiv"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Divide"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Result"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/noAuth_tvResult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:text="Nothing so fare"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
