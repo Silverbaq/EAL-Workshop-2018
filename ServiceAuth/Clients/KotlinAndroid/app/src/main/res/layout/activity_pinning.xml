@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".NoAuthActivity">
+    tools:context=".PinningActivity">
 
     <TextView
         android:layout_width="match_parent"
@@ -12,7 +12,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:gravity="center"
-        android:text="Token authentication"
+        android:text="Pinning authentication"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.326"
@@ -28,62 +28,9 @@
         android:orientation="vertical"
         android:padding="5dp">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:weightSum="4">
-
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="3"
-                android:orientation="vertical">
-
-                <EditText
-                    android:id="@+id/tokenAuth_etUsername"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:hint="Username" />
-
-                <EditText
-                    android:id="@+id/tokenAuth_etPassword"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:hint="Password" />
-
-            </LinearLayout>
-
-            <Button
-                android:id="@+id/tokenAuth_btnGetToken"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="Get Token" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Got a token: " />
-
-            <TextView
-                android:id="@+id/tokenAuth_tvGotToken"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Nope!" />
-        </LinearLayout>
 
         <EditText
-            android:id="@+id/tokenAuth_etANumber"
+            android:id="@+id/pinning_etANumber"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -91,7 +38,7 @@
             android:inputType="number" />
 
         <EditText
-            android:id="@+id/tokenAuth_etBNumber"
+            android:id="@+id/pinning_etBNumber"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -100,33 +47,88 @@
 
         <LinearLayout
             android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Correct fingerprint" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:weightSum="4">
 
             <Button
-                android:id="@+id/tokenAuth_btnAdd"
+                android:id="@+id/pinning_btnAdd"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Add" />
 
             <Button
-                android:id="@+id/tokenAuth_btnSub"
+                android:id="@+id/pinning_btnSub"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Sub" />
 
             <Button
-                android:id="@+id/tokenAuth_btnMulti"
+                android:id="@+id/pinning_btnMulti"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Multiply" />
 
             <Button
-                android:id="@+id/tokenAuth_btnDiv"
+                android:id="@+id/pinning_btnDiv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Divide" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Incorrect fingerprint" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <Button
+                android:id="@+id/incPinning_btnAdd"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Add" />
+
+            <Button
+                android:id="@+id/incPinning_btnSub"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Sub" />
+
+            <Button
+                android:id="@+id/incPinning_btnMulti"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Multiply" />
+
+            <Button
+                android:id="@+id/incPinning_btnDiv"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -146,7 +148,7 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/tokenAuth_tvResult"
+                android:id="@+id/pinning_tvResult"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Nothing so fare"

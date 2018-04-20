@@ -41,3 +41,5 @@ The service can add two numbers together by doing a GET request:
 * http://<path>/api/calc/sub?a=2&b=4
 * http://<path>/api/calc/multi?a=2&b=4
 * http://<path>/api/calc/div?a=12&b=4
+
+

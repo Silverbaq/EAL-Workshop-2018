@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="dk.im2b.kotlinandroid">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -20,7 +20,8 @@
         </activity>
         <activity android:name=".NoAuthActivity" />
         <activity android:name=".BasicAuthActivity" />
-        <activity android:name=".TokenActivity"></activity>
+        <activity android:name=".TokenActivity" />
+        <activity android:name=".PinningActivity"></activity>
     </application>
 
 </manifest>

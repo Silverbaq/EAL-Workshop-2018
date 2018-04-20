@@ -56,11 +56,10 @@ class NoAuthActivity : AppCompatActivity() {
                     .build()
 
             val response = client.newCall(request).execute();
-
-            runOnUiThread { tvResult.text = response.body()!!.string() }
+            val result = response.body()!!.string()
+            runOnUiThread { tvResult.text = result }
         }.execute()
     }
-
 
 
 }

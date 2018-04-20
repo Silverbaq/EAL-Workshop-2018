@@ -25,5 +25,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, TokenActivity::class.java)
             startActivity(intent)
         })
+
+        findViewById<Button>(R.id.mainActivity_btnCertificateAuth).setOnClickListener({
+            val intent = Intent(this, PinningActivity::class.java)
+            startActivity(intent)
+        })
     }
 }
