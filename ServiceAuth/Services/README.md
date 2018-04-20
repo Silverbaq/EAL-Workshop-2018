@@ -42,4 +42,8 @@ The service can add two numbers together by doing a GET request:
 * http://<path>/api/calc/multi?a=2&b=4
 * http://<path>/api/calc/div?a=12&b=4
 
+## Scripts
+In scripts, you will find a bash script that can be used to obtain the fingerprint for Certificate pinning.
 
+### Usage example
+sh ./certs.sh www.google.com
